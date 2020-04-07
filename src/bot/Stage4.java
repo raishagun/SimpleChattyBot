@@ -72,4 +72,20 @@ public class Stage4 {
             System.out.printf("%d!\n", i);
         }
     }
+    static void test() {
+        System.out.println("Let's test your programming knowledge.");
+        // write your code here
+        System.out.println("Why do we use methods?");
+        System.out.println(1+". To repeat a statement multiple times.");
+        System.out.println(2 +". To decompose a program into several small subroutines.");
+        System.out.println(3 +". To determine the execution of a program.");
+        System.out.println(4 +". To determine the execution of a program.");
+        int result=scanner.nextInt();
+        int answer = 4;
+        while (result != answer){
+            System.out.println("Please, try again.");
+            result = scanner.nextInt();
+        }
+
+    }
 }
