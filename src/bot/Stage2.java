@@ -32,6 +32,10 @@ Enter remainders of dividing your age by 3, 5 and 7.
 > 1 2 1
 Your age is 22; that's a good time to start programming!*/
 
-public class Stage2 {
+import java.util.Scanner;
 
+public class Stage2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+    }
 }
