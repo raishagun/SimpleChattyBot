@@ -93,4 +93,7 @@ public class Stage4 {
         System.out.println("Congratulations, have a nice day!");
     }
 
+    public static void main(String[] args) {
+
+    }
 }
