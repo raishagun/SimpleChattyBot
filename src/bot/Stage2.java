@@ -50,6 +50,9 @@ public class Stage2 {
         int rem3=scanner.nextInt();
         int rem5=scanner.nextInt();
         int rem7=scanner.nextInt();
+        // calculate the age according to the formula given in description
+        int age =(rem3*70+rem5*21+rem7*15)%105;
+        System.out.println("Your age is "+age+"; that's a good time to start programming!");
 
     }
 }
