@@ -43,5 +43,11 @@ The program must end with the Congratulations, have a nice day! message.*/
 import java.util.Scanner;
 
 public class Stage4 {
+    final static Scanner scanner = new Scanner(System.in);
 
+    static void greet(String assistantName, String birthYear) {
+        System.out.println("Hello! My name is " + assistantName + ".");
+        System.out.println("I was created in " + birthYear + ".");
+        System.out.println("Please, remind me your name.");
+    }
 }
