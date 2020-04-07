@@ -50,4 +50,8 @@ public class Stage4 {
         System.out.println("I was created in " + birthYear + ".");
         System.out.println("Please, remind me your name.");
     }
+    static void remindName() {
+        String name = scanner.nextLine();
+        System.out.println("What a great name you have, " + name + "!");
+    }
 }
