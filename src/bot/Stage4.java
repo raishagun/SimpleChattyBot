@@ -94,6 +94,14 @@ public class Stage4 {
     }
 
     public static void main(String[] args) {
+//calling the methods
+        greet("Shagun", "2000"); // we can  change it as needed
+        remindName();
+        guessAge();
+        count();
 
+        test();
+        end();
     }
+
 }
